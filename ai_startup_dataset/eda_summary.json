@@ -1,0 +1,345 @@
+{
+  "total_records": 5000,
+  "total_columns": 31,
+  "missing_pct": 0.78,
+  "duplicate_companies": 4538,
+  "outliers_top": {
+    "monthly_active_users": {
+      "outliers": 767.0,
+      "pct": 15.3,
+      "lower": -241699.5,
+      "upper": 412624.5
+    },
+    "customer_count": {
+      "outliers": 762.0,
+      "pct": 15.2,
+      "lower": -255.5,
+      "upper": 436.5
+    },
+    "burn_rate_monthly": {
+      "outliers": 718.0,
+      "pct": 14.7,
+      "lower": -109180.51,
+      "upper": 208943.93
+    },
+    "employee_count": {
+      "outliers": 685.0,
+      "pct": 14.0,
+      "lower": -275.0,
+      "upper": 485.0
+    },
+    "revenue_2024": {
+      "outliers": 682.0,
+      "pct": 13.9,
+      "lower": -4973344.67,
+      "upper": 8530692.82
+    }
+  },
+  "descriptive": {
+    "total_funding_usd": {
+      "mean": 28212581.94,
+      "median": 5375503.41,
+      "std": 62701144.25,
+      "p5": 0.0,
+      "p95": 151980153.45
+    },
+    "revenue_2024": {
+      "mean": 4886523.37,
+      "median": 690260.2,
+      "std": 11616212.76,
+      "p5": 14282.24,
+      "p95": 26951409.97
+    },
+    "revenue_2025": {
+      "mean": 7793704.89,
+      "median": 1003373.43,
+      "std": 19841844.67,
+      "p5": 20856.55,
+      "p95": 41641021.48
+    },
+    "revenue_growth_yoy": {
+      "mean": 0.59,
+      "median": 0.49,
+      "std": 0.5,
+      "p5": -0.03,
+      "p95": 1.58
+    },
+    "valuation_usd": {
+      "mean": 202335416.0,
+      "median": 36875479.0,
+      "std": 416009430.31,
+      "p5": 14820.29,
+      "p95": 1200919254.46
+    },
+    "employee_count": {
+      "mean": 290.8,
+      "median": 38.0,
+      "std": 729.65,
+      "p5": 4.0,
+      "p95": 1518.05
+    },
+    "burn_rate_monthly": {
+      "mean": 145148.37,
+      "median": 22429.17,
+      "std": 381842.95,
+      "p5": 5000.0,
+      "p95": 754419.59
+    },
+    "gross_margin_pct": {
+      "mean": 72.08,
+      "median": 72.1,
+      "std": 9.8,
+      "p5": 55.9,
+      "p95": 88.61
+    },
+    "churn_rate_annual": {
+      "mean": 0.1,
+      "median": 0.07,
+      "std": 0.08,
+      "p5": 0.02,
+      "p95": 0.26
+    },
+    "net_revenue_retention": {
+      "mean": 1.93,
+      "median": 1.91,
+      "std": 0.27,
+      "p5": 1.53,
+      "p95": 2.47
+    },
+    "monthly_active_users": {
+      "mean": 395672.8,
+      "median": 25365.0,
+      "std": 1282834.17,
+      "p5": 428.9,
+      "p95": 1995526.5
+    },
+    "customer_count": {
+      "mean": 346.15,
+      "median": 30.0,
+      "std": 1061.95,
+      "p5": 1.0,
+      "p95": 1740.25
+    }
+  },
+  "top_correlations": [
+    [
+      "revenue_2024",
+      "revenue_2025",
+      0.9479
+    ],
+    [
+      "total_funding_usd",
+      "valuation_usd",
+      0.8969
+    ],
+    [
+      "total_funding_usd",
+      "revenue_2024",
+      0.867
+    ],
+    [
+      "revenue_2024",
+      "burn_rate_monthly",
+      0.8393
+    ],
+    [
+      "revenue_2024",
+      "employee_count",
+      0.8315
+    ],
+    [
+      "revenue_2024",
+      "valuation_usd",
+      0.8183
+    ],
+    [
+      "total_funding_usd",
+      "revenue_2025",
+      0.8165
+    ],
+    [
+      "revenue_2025",
+      "burn_rate_monthly",
+      0.7972
+    ],
+    [
+      "revenue_2025",
+      "employee_count",
+      0.7842
+    ],
+    [
+      "revenue_2025",
+      "valuation_usd",
+      0.7702
+    ]
+  ],
+  "domain_insights": {
+    "count": {
+      "Computer Vision": 964,
+      "Data/MLOps": 390,
+      "Speech/Audio": 518,
+      "AI Agents": 602,
+      "NLP/LLM": 1218,
+      "Decision/MLOps": 706,
+      "AI Infrastructure": 602
+    },
+    "avg_revenue": {
+      "Computer Vision": 5366824.68,
+      "Data/MLOps": 5225819.3,
+      "Speech/Audio": 5180924.28,
+      "AI Agents": 4915599.64,
+      "NLP/LLM": 4839355.44,
+      "Decision/MLOps": 4500955.35,
+      "AI Infrastructure": 4174128.29
+    },
+    "avg_growth": {
+      "Computer Vision": 0.52,
+      "Data/MLOps": 0.46,
+      "Speech/Audio": 0.49,
+      "AI Agents": 0.69,
+      "NLP/LLM": 0.75,
+      "Decision/MLOps": 0.49,
+      "AI Infrastructure": 0.57
+    },
+    "avg_funding": {
+      "Computer Vision": 29937503.23,
+      "Data/MLOps": 27843198.35,
+      "Speech/Audio": 28787663.55,
+      "AI Agents": 27771788.61,
+      "NLP/LLM": 29114135.93,
+      "Decision/MLOps": 26507412.57,
+      "AI Infrastructure": 25811348.78
+    },
+    "avg_employees": {
+      "Computer Vision": 311.65,
+      "Data/MLOps": 303.05,
+      "Speech/Audio": 304.45,
+      "AI Agents": 283.33,
+      "NLP/LLM": 296.53,
+      "Decision/MLOps": 286.28,
+      "AI Infrastructure": 238.93
+    },
+    "avg_mau": {
+      "Computer Vision": 448460.97,
+      "Data/MLOps": 365058.64,
+      "Speech/Audio": 398789.83,
+      "AI Agents": 393950.34,
+      "NLP/LLM": 422575.97,
+      "Decision/MLOps": 325048.35,
+      "AI Infrastructure": 358408.39
+    },
+    "avg_margin": {
+      "Computer Vision": 71.74,
+      "Data/MLOps": 71.8,
+      "Speech/Audio": 72.28,
+      "AI Agents": 71.93,
+      "NLP/LLM": 71.99,
+      "Decision/MLOps": 72.78,
+      "AI Infrastructure": 72.15
+    },
+    "avg_churn": {
+      "Computer Vision": 0.1,
+      "Data/MLOps": 0.1,
+      "Speech/Audio": 0.1,
+      "AI Agents": 0.1,
+      "NLP/LLM": 0.1,
+      "Decision/MLOps": 0.1,
+      "AI Infrastructure": 0.1
+    }
+  },
+  "stage_insights": {
+    "count": {
+      "Bootstrapped": 706,
+      "Seed": 1214,
+      "Series A": 1415,
+      "Series B": 931,
+      "Series C": 461,
+      "Series D+": 273
+    },
+    "avg_revenue": {
+      "Bootstrapped": 28374.03,
+      "Seed": 113999.31,
+      "Series A": 919073.74,
+      "Series B": 4175156.36,
+      "Series C": 14564922.59,
+      "Series D+": 44851637.5
+    },
+    "avg_funding": {
+      "Bootstrapped": 0.0,
+      "Seed": 884010.77,
+      "Series A": 6752796.3,
+      "Series B": 27044951.26,
+      "Series C": 90562817.24,
+      "Series D+": 232623463.41
+    },
+    "avg_valuation": {
+      "Bootstrapped": 36405.32,
+      "Seed": 7625564.65,
+      "Series A": 56713296.27,
+      "Series B": 213795848.17,
+      "Series C": 723453386.31,
+      "Series D+": 1427064770.7
+    },
+    "avg_employees": {
+      "Bootstrapped": 8.37,
+      "Seed": 13.75,
+      "Series A": 64.85,
+      "Series B": 281.97,
+      "Series C": 908.24,
+      "Series D+": 2412.29
+    },
+    "avg_growth": {
+      "Bootstrapped": 0.6,
+      "Seed": 0.59,
+      "Series A": 0.59,
+      "Series B": 0.6,
+      "Series C": 0.55,
+      "Series D+": 0.62
+    },
+    "avg_nrr": {
+      "Bootstrapped": 1.92,
+      "Seed": 1.95,
+      "Series A": 1.93,
+      "Series B": 1.93,
+      "Series C": 1.92,
+      "Series D+": 1.92
+    }
+  },
+  "country_top": {
+    "count": {
+      "United States": 1977,
+      "United Kingdom": 524,
+      "Germany": 341,
+      "India": 313,
+      "Canada": 287
+    },
+    "avg_revenue": {
+      "United States": 4829741.22,
+      "United Kingdom": 4283612.85,
+      "Germany": 5023279.83,
+      "India": 5472032.63,
+      "Canada": 4923134.77
+    },
+    "avg_funding": {
+      "United States": 27842267.11,
+      "United Kingdom": 25248741.89,
+      "Germany": 32215639.99,
+      "India": 28936398.06,
+      "Canada": 30759464.28
+    }
+  },
+  "visualizations": {
+    "distributions": "01_distributions.png",
+    "correlation": "02_correlation_heatmap.png",
+    "bar_charts": "03_bar_charts.png",
+    "trends": "04_trends_over_time.png",
+    "scatter": "05_scatter_plots.png",
+    "boxplots": "06_box_plots.png",
+    "pie": "07_composition_pie.png",
+    "treemap": "08_market_size_treemap.png",
+    "pairplot": "09_pairplot.png",
+    "growth_mau": "10_growth_vs_mau.png",
+    "open_source": "11_open_source_comparison.png",
+    "churn_nrr": "12_churn_vs_nrr.png"
+  }
+}
